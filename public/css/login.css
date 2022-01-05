@@ -1,5 +1,7 @@
 
-
+body{
+    background-color: #ebebeb !important;
+}
 
 .container-login{
     width: 600px;

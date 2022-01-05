@@ -112,7 +112,7 @@ main{
 }
 
 article{
-    padding: 10px;
+    margin: 15px;
 }
 
 main section article i, .descuentos{
@@ -130,6 +130,8 @@ main section article i, .descuentos{
     margin-top: 30px;
 }
 
+
+
 @media (min-width:361px){
     .descripciones{
         display: none;
@@ -137,10 +139,17 @@ main section article i, .descuentos{
     header nav{
         display: none;
     }
+    main section {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+    }
 }
 
 @media (min-width:769px){
-    article{
+    main section article{
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
     .descripciones{
@@ -164,6 +173,17 @@ main section article i, .descuentos{
         justify-content: space-between;
         text-align: right;
     }
+    main section article{
+        width: 45%;
+    }
+    /* hover footer */
+
+    footer section i:hover{
+        color: #39b54a; 
+    }
+    footer section{
+        display: flex;
+    }   
 }
 
 .precios .descuentos{
@@ -182,6 +202,15 @@ main section article i{
     background-color: #FFF;
     border-radius: 50%;
     position: absolute;
-    right: 20px;
+    margin: -32px 0 0 300px;
 }
 
+
+@media (min-width:1024px){
+    main section article{
+        width:20%;
+    }
+    main section article i{
+        margin: -32px 0 0 150px;
+    }
+}
