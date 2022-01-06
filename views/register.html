@@ -9,74 +9,74 @@
     <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-    <form action="/register" method="post">
-        <p>
-            <label>Nombre y Apellido</label>
-            <input type="text" name="Nombre y Apellido">
+    <form action="/register" method="post" class="registro">
+        <p class="control-registro">
+            <input type="text" name="Nombre y Apellido" placeholder="Nombre y apellido">
         </p>
-        <p>
-            <label>Nombre de usuari@</label>
-            <input type="text" name="Nombre de usuari@">
+        <p class="control-registro">
+            <input type="text" name="Nombre de usuari@" placeholder="Nombre de usuario">
         </p>
-        <p>
+        <p class="control-registro">
+            <input type="email" name="E-mail" placeholder="E-mail">
+        </p>
+        <p class="control-registro">
             <label>Fecha de nacimiento</label>
             <input type="date" name="Fecha de nacimiento">
         </p>
-        <p>
-            <label>Domicilio</label>
-            <input type="text" name="Domicilio">
+        <p class="control-registro">
+            <input type="text" name="Domicilio" placeholder="Domicilio">
         </p>
-        <p>
+        <p class="control-registro">
             <label>Perfil de usuario</label>
         </p>
-        <p>
-            <label>Comprar</label>
-            <input type="radio" name="medio" value="Comprar">
+        <p class="control-registro">
+            <label>Comprador</label>
+            <input type="radio" name="medio" value="Comprador">
         </p>
-        <p>
-            <label>Vender</label>
-            <input type="radio" name="medio" value="Vender">
+        <p class="control-registro">
+            <label>Vendedor</label>
+            <input type="radio" name="medio" value="Vendedor">
         </p>
-        <p>
+        <p class="control-registro">
             <label>Categorías de interés</label>
         </p>
-        <p>
+        <p class="control-registro">
             <label>Electro</label>
             <input type="checkbox" name="interes" value="Electro">
         </p>
-        <p>
+        <p class="control-registro">
             <label>Moda</label>
             <input type="checkbox" name="interes" value="Moda">
         </p>
-        <p>
+        <p class="control-registro">
             <label>Hogar</label>
             <input type="checkbox" name="interes" value="Hogar">
         </p>
-        <p>
+        <p class="control-registro">
             <label>Juguetería</label>
             <input type="checkbox" name="interes" value="Juguetería">
         </p>
-        <p>
+        <p class="control-registro">
             <label>Vida sana</label>
             <input type="checkbox" name="interes" value="Vida sana">
         </p>
-        <p>
+        <p class="control-registro">
             <label>Foto de usuario</label>
             <input type="file" name="avatar" accept=".jpg">
         </p>
-        <p>
+        <p class="control-registro">
             <label>Contraseña</label>
             <input type="password" name="Contraseña">
         </p>
-        <p>
+        <p class="control-registro">
             <label>Confirmar contraseña</label>
             <input type="password" name="Contraseña">
         </p>
-        <p>
-            <button type="submit">Enviar</button>
+        <p class="control-registro">
+            <button type="submit" class="boton">Enviar</button>
         </p>
-        <p>
-            <button type="delete">Borrar</button>
+        <p class="control-registro">
+            <button type="reset" class="boton">Borrar</button>
         </p>
     </form>
 </body>

@@ -131,6 +131,53 @@ main section article i, .descuentos{
 }
 
 
+.registro{
+    padding: 20px 15px;
+}
+
+
+.control-registro{
+    margin-bottom: 15px;
+    display: block;
+}
+
+.control-registro input{
+    width: 100%;
+    padding: 8px;
+}
+
+
+.boton{
+    background-color: #03264C;
+    color: #FFF;
+    border: none;
+    font-size: 20px;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.login{
+    padding: 20px 15px;
+}
+
+.control-login{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.control-login label{
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.control-login input{
+    width: 75%;
+    padding: 8px;
+}
+
+.control-login .boton:hover{
+    background-color: #0022AA;
+}
 
 @media (min-width:361px){
     .descripciones{
